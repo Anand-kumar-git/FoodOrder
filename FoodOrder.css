@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+#head{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    padding: 15px;
+}
+ul,li{
+    display: inline;
+    color: gray;
+    
+}
+li:hover{
+    background-color: white;
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+}
+ul{
+    margin-right: 20px;
+}
+
+#product{
+    text-align: center;
+    padding: 29px;
+}
+.box{
+    display: inline-block;
+    width: 225px;
+    text-align: center;
+    border: solid black ;
+}
+.box button{
+    background-color: black;
+    color: white;
+    padding: 2px;
+
+}
+.box button:hover{
+    background-color: gold;
+    color: black;
+}
+#contact{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+#contact button{
+    background-color: greenyellow;
+    width: 25%;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+#contact button:hover{
+    background-color: rgb(0, 255, 0);
+}
